@@ -5,6 +5,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         mTime = (TextView) findViewById(R.id.time);
         startUpdateSystemTime();
 
+        Toast.makeText(MainActivity.this,"修改",Toast.LENGTH_SHORT).show();
 
 
     }
