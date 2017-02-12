@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(MainActivity.this,"修改",Toast.LENGTH_SHORT).show();
         Toast.makeText(MainActivity.this,"修改2",Toast.LENGTH_SHORT).show();
-
+        Toast.makeText(MainActivity.this,"修改3",Toast.LENGTH_SHORT).show();
     }
  private Handler mHandler = new Handler(){
      @Override
